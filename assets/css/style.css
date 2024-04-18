@@ -76,3 +76,23 @@ form{
     opacity: 0.9;
 }
 
+.consolas{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    transition: background-color 0.5s ease;
+}
+
+.consolas:hover{
+    background-color: rgba(255, 247, 247, 0.8);
+}
+
+.mostrador{
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 100px;
+    background-color: rgba(44, 44, 44,0.5);
+    opacity: 0.9;
+
+}
