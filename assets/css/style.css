@@ -1,0 +1,78 @@
+body{   
+     background-image: url(/assets/img/wallpaper3.webp);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed; 
+     font-family: "Barlow Condensed", sans-serif;
+ }
+ 
+
+
+
+
+form{
+    width: 24%;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 150px;
+       
+}
+
+.btn-primary{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: purple;
+    color: white;
+    transition: background 0.5s ease;
+    
+}
+
+.btn-primary:hover{
+    background: blue;
+}
+
+.form-control{
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+}
+
+.container-fluid h4{
+    font-size: 2rem !important;
+    font-weight: 700;
+}
+
+.form-label{
+    font-family: 800;
+}
+
+
+@media only screen and (max-width:600px){
+    form{
+        width: 100%;
+    }   
+}
+
+.icons{
+    margin-top: 100px;
+    background-color: rgba(44, 44, 44,0.5);
+    padding: 15px;
+    border-radius: 50px; 
+}
+
+.carrusel{
+    padding: 50px;
+    background-color: rgba(44, 44, 44,0.5);
+    opacity: 0.9;
+    border-radius: 50px;
+}
+
+.cartas{
+    background-color: rgba(44, 44, 44,0.5);
+    opacity: 0.9;
+}
+
