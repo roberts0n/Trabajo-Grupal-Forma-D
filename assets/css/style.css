@@ -109,10 +109,22 @@ form{
     filter: drop-shadow(1px 1px 1px black);
 }
 
-.pie{
-    display: flex;
+.enlace{
+    color: white;
+    transition: color 0.3s ease-in-out;
 }
 
-.pie2{
-    
+.enlace:hover{
+    color: skyblue;
+}
+
+.ficha{
+    max-width: 1500px;
+    max-height: 1500px;
+    text-align: center;
+    background-color: rgba(44, 44, 44,0.3);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 30px;
+    border-radius: 100px ;
 }
