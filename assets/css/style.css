@@ -1,5 +1,5 @@
 body{   
-     background-image: url(/assets/img/wallpaper3.jpg);
+     background-image: url(/assets/img/wallpaper3.webp);
      background-position: center center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -85,7 +85,9 @@ form{
 }
 
 .consolas:hover{
-    background-color: rgba(255, 247, 247, 0.8);
+    transform: scale(130%);
+    transition: 0.3s ease;
+    filter: drop-shadow(1px 1px 1px black);
 }
 
 .mostrador{
@@ -95,4 +97,22 @@ form{
     background-color: rgba(44, 44, 44,0.5);
     opacity: 0.9;
 
+}
+
+.movimiento{
+    transition: 0.5 ease;
+}
+
+.movimiento:hover{
+    transform: scale(110%);
+    transition: 0.3s ease;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.pie{
+    display: flex;
+}
+
+.pie2{
+    
 }
