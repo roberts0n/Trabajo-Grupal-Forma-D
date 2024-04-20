@@ -128,3 +128,18 @@ form{
     padding-left: 30px;
     border-radius: 100px ;
 }
+
+@media (max-width: 768px) { /* Cambia los estilos para pantallas de tamaño mediano */
+    .ficha {
+        padding-top: 50px; /* Reduce el espacio superior */
+        padding-bottom: 50px; /* Reduce el espacio inferior */
+    }
+    
+    .ficha .col:first-child {
+        display: none; /* Oculta la primera columna (la imagen) en pantallas más pequeñas */
+    }
+
+    .ficha .col:last-child {
+        text-align: center; /* Centra el contenido en la segunda columna */
+    }
+}
