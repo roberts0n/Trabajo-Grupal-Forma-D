@@ -163,9 +163,31 @@ form{
 }
 
 
-@media (max-width 576px){
-    
+@media (max-width: 576px){
+    .chico{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
 }
+
+
+
+.medio{
+    margin-top: 150px;
+}
+
+
+
+@media (max-width: 992px){
+    .ancho{
+        padding-left: 110px;
+        padding-right: 110px;
+
+    }
+
+}
+
 
 
 .footer-log{
