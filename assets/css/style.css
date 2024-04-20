@@ -1,4 +1,5 @@
-body{   
+body{ 
+    height: 100%;
      background-image: url(/assets/img/wallpaper3.webp);
      background-position: center center;
      background-repeat: no-repeat;
@@ -7,7 +8,9 @@ body{
      font-family: "Barlow Condensed", sans-serif;
  }
  
-
+html,body{
+    min-height: 100%;
+}
 
 
 
@@ -115,8 +118,23 @@ form{
 }
 
 .enlace:hover{
-    color: skyblue;
+    color: rgb(17, 18, 19);
 }
+
+.enlace-switch:hover{
+    color: rgb(155, 13, 13);
+}
+
+.enlace-xbox:hover{
+    color: green;
+}
+
+.enlace-play:hover{
+    color: blue;
+}
+
+
+
 
 .ficha{
     max-width: 1500px;
@@ -142,4 +160,22 @@ form{
     .ficha .col:last-child {
         text-align: center; /* Centra el contenido en la segunda columna */
     }
+}
+
+
+.footer-log{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+}
+
+.bordesito{
+border: 5px solid rgba(0, 0, 0, 0.5);
+transition: border 0.3s ease;
+}
+
+.bordesito:hover{
+    border: 8px solid rgba(255, 255, 255, 0.8);
+
 }
